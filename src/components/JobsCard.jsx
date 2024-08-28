@@ -4,6 +4,7 @@ import '../App.css';
 const JobsCard = ({ job }) => {
     return (
         <>
+            
            <div className="job-card">
             <div className="job-header">
                 <span className="date">{new Date(job.postedDate).toDateString()}</span>
