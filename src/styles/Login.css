@@ -1,0 +1,144 @@
+.login-container {
+  width: 400px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.social-login {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.social-login.linkedin {
+  background-color: #0077b5;
+}
+
+.social-login.google {
+  background-color: #db4437;
+}
+
+.separator {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separator span {
+  background-color: #fff;
+  padding: 0 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.separator:before, .separator:after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.show-password-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.signup-link {
+  font-size: 14px;
+  color: #666;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+.home-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.home-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-link a:hover {
+  text-decoration: underline;
+}
+

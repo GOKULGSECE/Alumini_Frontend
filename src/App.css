@@ -1,0 +1,94 @@
+
+.job-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px); /* Three cards per row with 20px gap */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.job-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 0.8em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.details {
+    text-align: center;
+}
+
+.company {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 0.9em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.salary {
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
