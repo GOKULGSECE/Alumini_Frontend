@@ -16,7 +16,7 @@ const JobList = () => {
             <FilterSidebar  />
         
             <div className="job-list">
-                {JOBS.map((job)=> (
+                {filteredJobs.map((job)=> (
                     <JobsCard key={job.id} job={job} />
                 ))}
             </div>

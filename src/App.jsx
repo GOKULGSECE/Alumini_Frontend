@@ -5,6 +5,7 @@ import './App.css'
 import './index.css'
 import Signup from './components/Signup'
 import Home from './components/Home'
+import AdminPanel from './components/Admin'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Login />} />
+      <Route path="/admin" element={<AdminPanel></AdminPanel>}></Route>
       <Route path="/signup" element={<Signup></Signup>}/>
       <Route path="/home" element={<Home></Home>}/>
       <Route path="/joblist" element={<JobList />} />
