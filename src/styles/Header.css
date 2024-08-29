@@ -106,3 +106,43 @@
   background-color: #0056b3;
   color: #fff;
 }
+
+  background: #fff;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+  margin-top: 20px;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav .ant-menu-item {
+  line-height: 64px; 
+}
+
+.nav .ant-dropdown-link {
+  display: flex;
+  align-items: center;
+  height: 64px; 
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+}
+
+.ant-dropdown-menu {
+  min-width: 160px; 
+}
