@@ -5,6 +5,7 @@ import './App.css'
 import './index.css'
 import Signup from './components/Signup'
 import Home from './components/Home'
+import Main_Header from './components/Main_Header'
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <Main_Header/>
+    
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/signup" element={<Signup></Signup>}/>

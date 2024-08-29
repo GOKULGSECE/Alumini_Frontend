@@ -56,7 +56,7 @@ function Login() {
         <p>Not registered yet? <Link to="/signup">Click here to Signup Now!</Link></p>
       </div>
       <div className="home-link">
-        <p>Want to go back? <Link to="/">Go to Home</Link></p>
+        <p>Want to go back? <Link to="/home">Go to Home</Link></p>
       </div>
     </div>
   );

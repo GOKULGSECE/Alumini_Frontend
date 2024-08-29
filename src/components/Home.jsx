@@ -5,12 +5,13 @@ import Header from './Main_Header';
 function Home() {
   return (
     <div className="home-container">
-      <Header></Header>
-      <h1>Welcome to the Alumni Association</h1>
       
+      <h1>Welcome to the University Alumni Association</h1>
+      <p>We Work for Our University, Society, and Our Next Generation</p>
       
     </div>
   );
 }
 
 export default Home;
+

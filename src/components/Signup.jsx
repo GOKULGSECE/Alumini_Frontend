@@ -50,7 +50,7 @@ function Signup() {
         <button type="submit">Sign Up</button>
       </form>
       <p>
-        Already have an account? <Link to="/login">Go back to Login</Link>
+        Already have an account? <Link to="/">Go back to Login</Link>
       </p>
     </div>
   );
